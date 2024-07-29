@@ -1,0 +1,39 @@
+{
+  "name": "credo-mediator-notifications",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "Vinay Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "prettier": "^3.3.2",
+    "@ngrok/ngrok": "1.3.0",
+    "@types/node": "^16",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "resolutions": {
+    "ref-napi": "npm:@2060.io/ref-napi"
+  },
+  "dependencies": {
+    "@2060.io/ref-napi": "^3.0.6",
+    "@credo-ts/askar": "0.5.3",
+    "@credo-ts/core": "0.5.3",
+    "@credo-ts/node": "0.5.3",
+    "@credo-ts/push-notifications": "^0.7.1",
+    "@hyperledger/aries-askar-nodejs": "^0.2.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^12.2.0",
+    "ref-napi": "3.0.3",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.13.0"
+  }
+}
