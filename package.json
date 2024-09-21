@@ -30,7 +30,7 @@
     "@credo-ts/node": "0.5.3",
     "@credo-ts/push-notifications": "^0.7.1",
     "@hyperledger/aries-askar-nodejs": "^0.2.1",
-    "express": "^4.17.1",
+    "express": "^4.20.0",
     "firebase-admin": "^12.2.0",
     "ref-napi": "3.0.3",
     "sqlite3": "^5.1.7",
